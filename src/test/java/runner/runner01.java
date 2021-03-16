@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 		features={"src/test/resources/features"},
 		glue={"stepsdef"},
 		monochrome=true,
-		plugin={"pretty","html:target\\Result_16032021.html"}
+		plugin={"pretty","html:target\\Result_160320211728.html"}
 		)
 
 public class runner01 extends AbstractTestNGCucumberTests

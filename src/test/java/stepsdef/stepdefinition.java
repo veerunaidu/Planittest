@@ -300,8 +300,7 @@ public class stepdefinition
         System.out.println(ordernumber);
 		if(expectedmsg.equals(actualmsg))
 		{
-			byte[] b=sh.driver.getScreenshotAs(OutputType.BYTES);
-			sh.s.attach(b,"image/png","Your order has been Successfully processed! is Displayed, and Order ID is "+ordernumber+" TEST PASSED");
+			sh.s.log("Your order has been Successfully processed! is Displayed, and Order ID is "+ordernumber+" TEST PASSED");
 		}
 		else
 		{
